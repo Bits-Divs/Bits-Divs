@@ -6,6 +6,8 @@
 
         <title>Bits & Divs Thn</title>
 
+        <link rel="icon" type="image/png" href="/images/favicon.png"/>
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -22,85 +24,64 @@
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0" style="background-image: url('/images/pattern.png'); background-size: cover;">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <img src="/images/logo.png" style="width: 320px;" />
                 </div>
-
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    <h1 class="text-gray-600">Företagets vision</h1>
+                                    <h1 class="text-gray-600">Företaget</h1>
                                     <p>Korta beslutsvägar, kreativa processer och innovation är grundpelarna.</p>
                                     <p>Bits &amp; Divs Thn är ett mindre företag med säte i Trollhättan.</p>
                                     <p>Företaget drivs av Joakim Wennergren och har funnits sedan juni 2020.</p>
                                 </div>
                             </div>
                         </div>
-
                         <div class="p-6 ">
                             <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    <h1 class="text-gray-600">Bakom Bits &amp; Divs Thn</h1>
-                                    <img src="/images/joakim.JPG" style="width: 50%; margin-right: 10px; border-radius: 10px;" />
-                                    <p>Joakim Wennergren är uppväxt i Trollhättan och har arbetat med systemutveckling i ca 3 år.</p>
-                                    <p>Intresse för datorer och utveckling har han haft med sig sedan tidig ålder.</p>
-                                    <p>Efter att arbetat som konsult och programmerare beslutade han sig för att starta Bits &amp; Divs Thn.</p>
-                                </div>
                             </div>
                         </div>
-
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700">
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     <h1 class="text-gray-600">Tjänster</h1>
                                     <h2>Systemutveckling</h2>
+                                    <p>Behöver erat system ses över och eller uppdateras? Saknas något eller behöver något läggas till?</p>
                                     <h2>Webbsidor</h2>
-                                    <p></p>
+                                    <p>PHP 8 och react/vue alternativt livewire/alpine.js är teknikerna jag vänder mig främst till. Jag är anpassningsbar och lär mig lätt nya tekniker och håller mig konstant uppdaterad. </p>
                                     <h2>Mobila appar</h2>
                                     <p>Många personer har idag en smartphone och väljer hellre att använda en app istället för att surfa in på en webbsida. Med en app har man tillgång till smartphonens alla resurser.</p>
                                     <p>Ett par års erfarenhet av React-native har gjort mig väldigt säker på hur man snabbt och effektivt skapar en mobil applikation.</p>
                                 </div>
                             </div>
                         </div>
-
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 ">
                             <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    <h1 class="text-gray-600">Tidigare projekt</h1>
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                    <h1 class="text-gray-600">Kontakt</h1>
+                                    <ul style="list-style: none; padding: 0;">
+                                        <li>Drottninggatan 64C</li>
+                                        <li>461 33, Trollhättan</li>
+                                        <li>joakim@bitsanddivs.com</li>
+                                        <li>073 - 77 444 27</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 sm:text-left">
                         <div class="flex items-center">
                             Innehar F-skatt
                         </div>
                     </div>
-
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                         Copyright &copy; 2020 - 2021 Bits &amp; Divs 
                     </div>
-                    
                 </div>
             </div>
         </div>
