@@ -11,12 +11,12 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
         @livewireStyles
 
         <!-- Scripts -->
-        <script src="{{ secure_asset('js/app.js') }}" defer></script>
+        <script src="{{ mix('js/app.js') }}" defer></script>
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-800 sm:items-center sm:pt-0" style="background-image: url('/images/bg.jpg'); background-size: cover;">
@@ -37,6 +37,17 @@
                         </div>
                         <div class="p-6 ">
                             <div class="ml-4">
+                            <h1 class="text-gray-600">Referenser</h1>
+                            <div class="flex flex-row justify-around">
+                            <div class="flex flex-col">
+                                <img src="/images/Loggagenomsk-3-e1539887015464.png" style="width: 80px;" />
+                                <i class="text-xs mt-2">Tillverkande en levande tavla, med en samsung HD skärm samt en raspberry PI. Skrivet i C.</i>
+                            </div>
+                            <div class="flex flex-col ml-4">
+                                <img src="/images/bannertop.webp" class="ml-4" style="height: 40px; width: 160px;" />
+                                <i class="text-xs mt-6">Arbetade med deras webbplatform samt mobila applikation. Säkrade upp och förbättrade befintliga funktioner.</i>
+                            </div>
+                            </div>
                             </div>
                         </div>
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700">
