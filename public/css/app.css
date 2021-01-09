@@ -32709,6 +32709,21 @@ select {
           animation: bounce 1s infinite;
 }
 
+p {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -192153,4 +192168,3 @@ select {
             animation: bounce 1s infinite;
   }
 }
-
