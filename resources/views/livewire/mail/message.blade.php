@@ -8,6 +8,6 @@
     <label>Meddelande</label>
     <textarea wire:model="message" class="w-full p-1 bg-gray-100 h-32 border-2 border-light-blue-500 border-opacity-100"></textarea>
     <button type="button" wire:click.prevent="send()" class="w-full p-1 bg-white text-white mt-4 p-2" style="background: steelblue;">
-        Skicka
+        {{$confirm}}
     </button>
 </div>

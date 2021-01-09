@@ -14,10 +14,17 @@ class Message extends Component
     public $phone;
     public $message;
 
+    public $confirm = "Skicka";
+
     public function send()
     {
         if($this->email != "")
+        {
             Mail::to($this->email)->send(new Msg($this->name, $this->email, $this->phone, $this->message));
+            $this->confirm = "Meddelande skickat!";
+        }
+
+
     }
 
     public function render()
