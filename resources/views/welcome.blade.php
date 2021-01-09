@@ -14,28 +14,28 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-800 sm:items-center sm:pt-0" style="background-image: url('/images/bg.png'); background-size: cover;">
+        <div class="relative flex items-top justify-center min-h-screen bg-gray-800 sm:items-center sm:pt-0" style="background-image: url('/images/bg.jpg'); background-size: cover;">
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center sm:justify-start sm:pt-0">
-                    <img src="/images/logo.png" style="width: 320px;" />
+                    <img src="/images/logo.png" style="width: 320px; margin-top: 2em;" />
                 </div>
-                <div class="mt-8 bg-gray-100 overflow-hidden shadow sm:rounded-lg pt-8">
+                <div class="mt-8 bg-gray-100 shadow-2xl overflow-hidden shadow sm:rounded-lg pt-8">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
-                            <div class="ml-12">
+                            <div class="ml-4">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     <h1 class="text-gray-600">Företaget</h1>
-                                    <p>Korta beslutsvägar, kreativa processer och innovation är grundpelarna.</p>
+                                    <p>Korta beslutsvägar, kreativa processer och innovation är grundpelarna i Bits &amp; Divs Thn.</p>
                                     <p>Företaget drivs av Joakim Wennergren och har funnits sedan juni 2020.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="p-6 ">
-                            <div class="ml-12">
+                            <div class="ml-4">
                             </div>
                         </div>
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                            <div class="ml-12">
+                            <div class="ml-4">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     <h1 class="text-gray-600">Tjänster</h1>
                                     <h2>Systemutveckling</h2>
@@ -48,37 +48,36 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 ">
-                            <div class="ml-12">
+                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 pb-16">
+                            <div class="ml-4">
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     <h1 class="text-gray-600">Kontakt</h1>
                                     <form>
                                         <label>För &amp; efternamn</label>
-                                        <input type="text" class="w-full mb-2 p-1 bg-gray-200 border-4 border-light-blue-500 border-opacity-100" />
+                                        <input type="text" class="w-full mb-2 p-1 bg-gray-100 border-2 border-light-blue-500 border-opacity-100" />
                                         <label>Epost-adress</label>
-                                        <input type="text" class="w-full mb-2 p-1 bg-gray-200 border-4 border-light-blue-500 border-opacity-100" />
+                                        <input type="text" class="w-full mb-2 p-1 bg-gray-100 border-2 border-light-blue-500 border-opacity-100" />
                                         <label>Telefonnummer</label>
-                                        <input type="text" class="w-full mb-2 p-1 bg-gray-200 border-4 border-light-blue-500 border-opacity-100" />
+                                        <input type="text" class="w-full mb-2 p-1 bg-gray-100 border-2 border-light-blue-500 border-opacity-100" />
                                         <label>Meddelande</label>
-                                        <textarea class="w-full p-1 bg-gray-200 h-32 border-4 border-light-blue-500 border-opacity-100"></textarea>
+                                        <textarea class="w-full p-1 bg-gray-100 h-32 border-2 border-light-blue-500 border-opacity-100"></textarea>
+                                        <button type="submit" class="w-full p-1 bg-white text-white mt-4 p-2" style="background: steelblue;">
+                                            Skicka
+                                        </button>
                                     </form>
-                                    <ul style="list-style: none; padding: 0;">
-                                        <li>joakim@bitsanddivs.com</li>
-                                        <li>073 - 77 444 27</li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm text-gray-900 sm:text-left">
+                    <div class="text-center text-sm text-white sm:text-left">
                         <div class="flex items-center">
                             Innehar F-skatt
                         </div>
                     </div>
-                    <div class="ml-4 text-center text-sm text-gray-900 sm:text-right sm:ml-0">
-                        Copyright &copy; 2020 - 2021 Bits &amp; Divs 
+                    <div class="ml-4 text-center text-sm text-white sm:text-right sm:ml-0">
+                        Copyright &copy; 2020 - 2021 Bits &amp; Divs Thn
                     </div>
                 </div>
             </div>
