@@ -19,7 +19,7 @@
                 <div class="flex justify-center sm:justify-start sm:pt-0">
                     <img src="/images/logo.png" style="width: 320px;" />
                 </div>
-                <div class="mt-8 bg-gray-100 overflow-hidden shadow sm:rounded-lg">
+                <div class="mt-8 bg-gray-100 overflow-hidden shadow sm:rounded-lg pt-8">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
                             <div class="ml-12">
