@@ -12,6 +12,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        
+        <!-- Scripts -->
+        <script src="{{ mix('js/app.js') }}" defer></script>
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-800 sm:items-center sm:pt-0" style="background-image: url('/images/bg.jpg'); background-size: cover;">
