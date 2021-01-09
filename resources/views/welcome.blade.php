@@ -52,19 +52,7 @@
                             <div class="ml-4">
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     <h1 class="text-gray-600">Kontakt</h1>
-                                    <form>
-                                        <label>För &amp; efternamn</label>
-                                        <input type="text" class="w-full mb-2 p-1 bg-gray-100 border-2 border-light-blue-500 border-opacity-100" />
-                                        <label>Epost-adress</label>
-                                        <input type="text" class="w-full mb-2 p-1 bg-gray-100 border-2 border-light-blue-500 border-opacity-100" />
-                                        <label>Telefonnummer</label>
-                                        <input type="text" class="w-full mb-2 p-1 bg-gray-100 border-2 border-light-blue-500 border-opacity-100" />
-                                        <label>Meddelande</label>
-                                        <textarea class="w-full p-1 bg-gray-100 h-32 border-2 border-light-blue-500 border-opacity-100"></textarea>
-                                        <button type="submit" class="w-full p-1 bg-white text-white mt-4 p-2" style="background: steelblue;">
-                                            Skicka
-                                        </button>
-                                    </form>
+                                    <livewire:mail.message />
                                 </div>
                             </div>
                         </div>
@@ -82,5 +70,6 @@
                 </div>
             </div>
         </div>
+        @livewireScripts
     </body>
 </html>
