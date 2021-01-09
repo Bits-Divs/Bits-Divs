@@ -6,4 +6,4 @@
 <br />
 <strong>({{$phone}})</strong>
 <hr/>
-{{!!$msg!!}}
+{!!$msg!!}

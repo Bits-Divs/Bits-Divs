@@ -18,13 +18,8 @@ class Message extends Component
 
     public function send()
     {
-        if($this->email != "")
-        {
-            Mail::to($this->email)->send(new Msg($this->name, $this->email, $this->phone, $this->message));
-            $this->confirm = "Meddelande skickat!";
-        }
-
-
+        Mail::to("joakim@bitsanddivs.com")->send(new Msg($this->name, $this->email, $this->phone, $this->message));
+        $this->confirm = "Meddelande skickat!";
     }
 
     public function render()
