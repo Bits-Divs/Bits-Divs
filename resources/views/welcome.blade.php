@@ -32,13 +32,17 @@
                                     <h1 class="text-gray-600">Företaget</h1>
                                     <p>Korta beslutsvägar, kreativa processer och innovation är grundpelarna i Bits &amp; Divs Thn.</p>
                                     <p>Företaget drivs av Joakim Wennergren och har funnits sedan juni 2020.</p>
+                                    <video width="100%" height="240" autoplay muted loop>
+                                    <source src="/images/medium.mov" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video> 
                                 </div>
                             </div>
                         </div>
                         <div class="p-6 ">
                             <div class="ml-4">
                             <h1 class="text-gray-600">Referenser</h1>
-                            <div class="flex flex-row justify-around mt-6">
+                            <div class="flex flex-row justify-around ">
                                 <div class="flex flex-col">
                                 <a href="https://quizwalk.com" target="_blank" rel="noopener noreferrer"><img src="/images/footer_embossed.png" style="width: 180px;" /></a>
                                     <blockquote className="p-4 italic border-l-4 bg-neutral-100 text-neutral-600 border-neutral-500 quote text-xs">
