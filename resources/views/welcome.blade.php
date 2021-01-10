@@ -33,7 +33,7 @@
                                     <p>Korta beslutsvägar, kreativa processer och innovation är grundpelarna i Bits &amp; Divs Thn.</p>
                                     <p>Företaget drivs av Joakim Wennergren och har funnits sedan juni 2020.</p>
                                     <video width="100%" height="240" autoplay muted loop>
-                                    <source src="/images/medium.mov" type="video/mp4">
+                                    <source src="/images/medium.MOV" type="video/mp4">
                                     Your browser does not support the video tag.
                                     </video> 
                                 </div>
