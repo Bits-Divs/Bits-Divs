@@ -19,7 +19,7 @@
         <script src="{{ mix('js/app.js') }}" defer></script>
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-800 sm:items-center sm:pt-0" style="background-image: url('/images/bg.jpg'); background-size: cover;">
+        <div class="relative pb-4 flex items-top justify-center min-h-screen bg-gray-800 sm:items-center sm:pt-0" style="background-image: url('/images/bg.jpg'); background-size: cover;">
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center sm:justify-start sm:pt-0">
                     <img src="/images/logo.png" style="width: 320px; margin-top: 2em;" />
@@ -38,15 +38,20 @@
                         <div class="p-6 ">
                             <div class="ml-4">
                             <h1 class="text-gray-600">Referenser</h1>
-                            <div class="flex flex-row justify-around">
-                            <div class="flex flex-col">
-                                <img src="/images/Loggagenomsk-3-e1539887015464.png" style="width: 80px;" />
-                                <i class="text-xs mt-2">Tillverkande en levande tavla, med en samsung HD skärm samt en raspberry PI. Skrivet i C.</i>
-                            </div>
-                            <div class="flex flex-col ml-4">
-                                <img src="/images/bannertop.webp" class="ml-4" style="height: 40px; width: 160px;" />
-                                <i class="text-xs mt-6">Arbetade med deras webbplatform samt mobila applikation. Säkrade upp och förbättrade befintliga funktioner.</i>
-                            </div>
+                            <div class="flex flex-row justify-around mt-6">
+                                <div class="flex flex-col">
+                                <a href="https://quizwalk.com" target="_blank" rel="noopener noreferrer"><img src="/images/footer_embossed.png" style="width: 180px;" /></a>
+                                    <blockquote className="p-4 italic border-l-4 bg-neutral-100 text-neutral-600 border-neutral-500 quote text-xs">
+                                    <p className="mb-2 ">Bits & Divs Thn har byggt en kombinerad app- och webbplattform till oss på QuizWalk. Andra konsulter sade att deadlinen var omöjlig, men Joakim på Bits & Divs nådde alla mål inom vår tids- och kostnadsbudget. Vi är mycket, mycket nöjda med kvalité och bemötande!</p>
+                                        <br />
+                                        <cite>
+                                            -
+                                            <a href="https://quizwalk.com" target="_blank" rel="noopener noreferrer">
+                                            Erik Kylén, QuizWalk AB
+                                            </a>
+                                        </cite>
+                                    </blockquote>
+                                </div>
                             </div>
                             </div>
                         </div>
