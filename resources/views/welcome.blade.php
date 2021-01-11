@@ -33,7 +33,7 @@
                                     <p>Korta beslutsvägar, kreativa processer och innovation är grundpelarna i Bits &amp; Divs Thn.</p>
                                     <p>Företaget drivs av Joakim Wennergren och har funnits sedan juni 2020.</p>
                                     <video width="100%" height="240" autoplay muted loop>
-                                    <source src="/images/medium.MOV" type="video/mp4">
+                                    <source src="/images/low.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                     </video> 
                                 </div>
@@ -42,11 +42,10 @@
                         <div class="p-6 ">
                             <div class="ml-4">
                             <h1 class="text-gray-600">Referenser</h1>
-                            <div class="flex flex-row justify-around ">
-                                <div class="flex flex-col">
-                                <a href="https://quizwalk.com" target="_blank" rel="noopener noreferrer"><img src="/images/footer_embossed.png" style="width: 180px;" /></a>
-                                    <blockquote className="p-4 italic border-l-4 bg-neutral-100 text-neutral-600 border-neutral-500 quote text-xs">
-                                    <p className="mb-2 ">Bits & Divs Thn har byggt en kombinerad app- och webbplattform till oss på QuizWalk. Andra konsulter sade att deadlinen var omöjlig, men Joakim på Bits & Divs nådde alla mål inom vår tids- och kostnadsbudget. Vi är mycket, mycket nöjda med kvalité och bemötande!</p>
+                            <div class="flex flex-row justify-around" >
+                                <div class="flex flex-col" style= >
+                                    <blockquote style="margin-left: -10px; margin-top: -20px;" className="italic border-l-4 bg-neutral-100 text-neutral-600 border-neutral-500 quote text-xs">
+                                    <p className="">Bits & Divs Thn har byggt en kombinerad app- och webbplattform till oss på QuizWalk. Andra konsulter sade att deadlinen var omöjlig, men Joakim på Bits & Divs nådde alla mål inom vår tids- och kostnadsbudget. Vi är mycket, mycket nöjda med kvalité och bemötande!</p>
                                         <br />
                                         <cite>
                                             -
@@ -55,6 +54,10 @@
                                             </a>
                                         </cite>
                                     </blockquote>
+                                    <h1 class="text-gray-600" style="margin-top: -20px; margin-bottom: 10px;">Kunder</h1>
+                                    <div class="flex flex-row" style="margin-left: 10px;">
+                                        <a style="margin-left: -20px;" href="https://quizwalk.com" target="_blank" rel="noopener noreferrer"><img src="/images/footer_embossed.png" style="width: 140px;" /></a>
+                                    </div>
                                 </div>
                             </div>
                             </div>
